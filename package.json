@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run build -- --watch",
+    "build": "babel src --out-dir out/ --extensions .ts,.tsx --presets @babel/preset-typescript,@babel/preset-react"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0"
+  }
+}
